@@ -1,4 +1,5 @@
 # buyukten-kucuge
+
 patika.dev girilen değere göre büyükten küçüğe sıralayan program
 
 import java.util.Scanner;
@@ -12,7 +13,6 @@ public class main {
         b = inp.nextInt();
         System.out.print("3. Sayıyı giriniz:");
         c = inp.nextInt();
-
         if ((a > b) && (a > c)) {
             if ( b > c){
                 System.out.print("a > b > c");
